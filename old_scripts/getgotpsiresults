@@ -1,0 +1,1 @@
+cd ~/Desktop/Cloud; today=`date +%Y-%m-%d`; ssh -i adam.pem ubuntu@35.80.241.165 /home/ubuntu/IONS/tests/sql_gotpsi_results > sql_gotpsiresults$today.txt
